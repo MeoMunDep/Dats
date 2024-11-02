@@ -32,6 +32,7 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "speedTest": false, //true if you want to test the speed, it will be lag when u turn on, if u dont want just set false
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
@@ -46,12 +47,12 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - Cannot update yet.
+### 3. `wallets.txt` 💼 - Fill evm address, if you guys want to delete one address from a account just type ' ' (space) in that account's line
 
 ```txt - wallet address
-abc...xyz
-abc...xyz
-abc...xyz
+0x...
+0x...
+0x...
 ```
 
 ### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
