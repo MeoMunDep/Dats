@@ -82,7 +82,6 @@ if exist "..\node_modules" (
     echo Using node_modules from current directory
 )
 cd dats && node meomundep
-cd dats && node meomundep_faucet
 pause
 goto MENU
 
