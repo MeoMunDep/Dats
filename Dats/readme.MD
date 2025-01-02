@@ -1,5 +1,8 @@
 📞 Contact
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
+
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -14,10 +17,13 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
+Before running the bot, make sure you have the following installed:
+
 - **Node.js** (Version: `22.11.0`)
 - **npm** (Version: `10.9.0`)
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
 
 1. **Install Dependencies and Modules:**
 
@@ -35,10 +41,12 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "speedTest": false, //true if you want to test the speed, it will be lag when u turn on, if u dont want just set false
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "speedTest": false,
+  "limitFaucetAccount": 10,
+  "delayEachAccount": [1, 81]
 }
 ```
 
@@ -50,7 +58,7 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - Fill evm address, if you guys want to delete one address from a account just type ' ' (space) in that account's line
+### 3. `wallets.txt` 💼 - Fill EVM address, if you guys want to delete one address from a account just type ' ' (space) in that account's line
 
 ```txt - wallet address
 0x...
@@ -70,6 +78,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd dats-main/dats; node meomundep` or if you want to use faucet for multiple wallets: `cd dats-main/dats; node meomundep_faucet`
 
 🎇Enjoy!
