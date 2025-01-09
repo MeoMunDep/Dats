@@ -2,7 +2,6 @@
 
 > [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
 
-
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -59,6 +58,8 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Fill EVM address, if you guys want to delete one address from a account just type ' ' (space) in that account's line
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 ```txt - wallet address
 0x...
