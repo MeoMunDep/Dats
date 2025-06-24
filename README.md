@@ -79,6 +79,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `cd dats-main/dats; node meomundep` or if you want to use faucet for multiple wallets: `cd dats-main/dats; node meomundep_faucet`
+> To run the bot, use the following command: `cd dats; node meomundep` or if you want to use faucet for multiple wallets: `cd dats; node meomundep_faucet`
 
 🎇Enjoy!
