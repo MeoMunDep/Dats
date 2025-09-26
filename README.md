@@ -1,6 +1,6 @@
 📞 Contact
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 > If you encounter any issues or have questions, feel free to reach out:
 
@@ -8,7 +8,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> > > Help me with your referral [Link](https://t.me/DATSAPP_bot/datsapp?startapp=6713068747)
+> Help me with your referral [Link](https://t.me/DATSAPP_bot/datsapp?startapp=6713068747)
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws
+   npm i user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger crypto-js
    ```
 
 2. **Prepare Configuration Files:**
@@ -42,7 +42,6 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "speedTest": false,
   "limitFaucetAccount": 10,
   "delayEachAccount": [1, 81]
